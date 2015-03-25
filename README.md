@@ -1,3 +1,27 @@
+## bwi (hydro) - 0.3.0-0
+
+The packages in the `bwi` repository were released into the `hydro` distro by running `/usr/bin/bloom-release bwi --track hydro --rosdistro hydro --non-i` on `Wed, 25 Mar 2015 05:22:32 -0000`
+
+These packages were released:
+- `bwi_desktop`
+- `bwi_desktop_full`
+- `bwi_launch`
+
+Version of package(s) in repository `bwi`:
+- upstream repository: https://github.com/utexas-bwi/bwi.git
+- release repository: https://github.com/utexas-bwi-gbp/bwi-release.git
+- rosdistro version: `0.2.1-0`
+- old version: `0.2.1-0`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## bwi (hydro) - 0.2.1-0
 
 The packages in the `bwi` repository were released into the `hydro` distro by running `/usr/bin/bloom-release bwi -r hydro -t hydro` on `Wed, 14 May 2014 15:56:03 -0000`
