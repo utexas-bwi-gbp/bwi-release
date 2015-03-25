@@ -1,6 +1,6 @@
-<package>
+<package format="2">
   <name>bwi_launch</name>
-  <version>0.2.1</version>
+  <version>0.3.0</version>
   <description>
     Top-level ROS launch scripts for the Building-Wide Intelligence
     (BWI) project of the University of Texas at Austin.
@@ -18,13 +18,17 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>segbot_bringup</run_depend>
-  <run_depend>segbot_gazebo</run_depend>
-  <run_depend>segbot_navigation</run_depend>
-  <run_depend>segbot_gazebo</run_depend>
-  <run_depend>utexas_gdc</run_depend>
+  <depend>bwi_kr_execution</depend>
+  <depend>multi_level_map_server</depend>
+  <depend>multi_level_map_utils</depend>
+  <depend>segbot_bringup</depend>
+  <depend>segbot_gazebo</depend>
+  <depend>segbot_gui</depend>
+  <depend>segbot_logical_translator</depend>
+  <depend>segbot_navigation</depend>
+  <depend>segbot_simulation_apps</depend>
+  <depend>utexas_gdc</depend>
 
-  <!-- testing dependencies -->
-  <build_depend>roslaunch</build_depend>
+  <test_depend>roslaunch</test_depend>
 
 </package>
