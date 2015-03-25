@@ -1,0 +1,25 @@
+ros-hydro-bwi-desktop-full (0.3.0-0raring) raring; urgency=high
+
+  * bwi_desktop: remove obsolete dependencies (#17 <https://github.com/utexas-bwi/bwi/issues/17>)
+    also convert to package.xml format two
+    also convert and update bwi_desktop_full
+  * Contributors: Jack O'Quin
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 24 Mar 2015 05:00:00 -0000
+
+ros-hydro-bwi-desktop-full (0.2.1-0raring) raring; urgency=high
+
+  * bwi_desktop_full: add python-bloom, remove openni_tracker (#9 <https://github.com/utexas-bwi/bwi/issues/9>)
+  * Contributors: Jack O'Quin
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 14 May 2014 05:00:00 -0000
+
+ros-hydro-bwi-desktop-full (0.2.0-0raring) raring; urgency=high
+
+  * release to Hydro
+  * create separate desktop full metapackage
+  * Contributors: Jack O'Quin
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Thu, 24 Apr 2014 05:00:00 -0000
+
+
