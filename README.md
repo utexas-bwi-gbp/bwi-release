@@ -1,3 +1,27 @@
+## bwi (indigo) - 0.3.1-0
+
+The packages in the `bwi` repository were released into the `indigo` distro by running `/usr/bin/bloom-release bwi --non-i --track indigo --ros-distro indigo` on `Tue, 31 Mar 2015 19:05:55 -0000`
+
+These packages were released:
+- `bwi_desktop`
+- `bwi_desktop_full`
+- `bwi_launch`
+
+Version of package(s) in repository `bwi`:
+- upstream repository: https://github.com/utexas-bwi/bwi.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## bwi (hydro) - 0.3.1-0
 
 The packages in the `bwi` repository were released into the `hydro` distro by running `/usr/bin/bloom-release bwi --non-i --track hydro --ros-distro hydro` on `Tue, 31 Mar 2015 18:57:51 -0000`
