@@ -1,0 +1,12 @@
+Source: ros-hydro-bwi-launch
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-bwi-kr-execution, ros-hydro-catkin, ros-hydro-multi-level-map-server, ros-hydro-multi-level-map-utils, ros-hydro-roslaunch, ros-hydro-segbot-bringup, ros-hydro-segbot-gazebo, ros-hydro-segbot-gui, ros-hydro-segbot-logical-translator, ros-hydro-segbot-navigation, ros-hydro-segbot-simulation-apps, ros-hydro-utexas-gdc
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-bwi-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-bwi-kr-execution, ros-hydro-multi-level-map-server, ros-hydro-multi-level-map-utils, ros-hydro-segbot-bringup, ros-hydro-segbot-gazebo, ros-hydro-segbot-gui, ros-hydro-segbot-logical-translator, ros-hydro-segbot-navigation, ros-hydro-segbot-simulation-apps, ros-hydro-utexas-gdc
+Description: Top-level ROS launch scripts for the Building-Wide Intelligence (BWI) project of the University of Texas at Austin.
