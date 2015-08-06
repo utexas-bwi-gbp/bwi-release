@@ -2,6 +2,12 @@
 Changelog for package bwi_desktop_full
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.3 (2015-08-06)
+------------------
+
+0.3.2 (2015-08-06)
+------------------
+
 0.3.1 (2015-03-31)
 ------------------
 * removed rosemacs-el from bwi_desktop_full dependency list. closes `#18 <https://github.com/utexas-bwi/bwi/issues/18>`_.
