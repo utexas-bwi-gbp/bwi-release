@@ -1,6 +1,6 @@
 <package format="2">
   <name>bwi_desktop</name>
-  <version>0.3.1</version>
+  <version>0.3.3</version>
   <description> 
     ROS desktop metapackage for the Building-Wide Intelligence (BWI)
     project of the University of Texas at Austin.  It depends on all
@@ -24,8 +24,6 @@
        top-down order.  No package may depend on anything higher in
        the list. -->
   <exec_depend>bwi_launch</exec_depend>
-  <exec_depend>segbot_simulator</exec_depend>
-  <exec_depend>segbot_apps</exec_depend>
   <exec_depend>segbot</exec_depend>
   <exec_depend>bwi_common</exec_depend>
 
