@@ -2,6 +2,22 @@
 Changelog for package bwi_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.3 (2015-08-06)
+------------------
+
+0.3.2 (2015-08-06)
+------------------
+* removed segbot_v2.arm.launch as mico driver is not yet
+  released. Launch file moved to segbot_arm_launch experimental package.
+* included bwi_logging/launch/record.launch into segbot_v2.launch
+* added main, all-in-one launch file for the segbot_v2 with arm
+* parameterized the single robot launch file being launched by the
+  multi_robot_launcher
+* now use default level on all launch file, in addition use
+  multi_robot_launcher which can launch multiple robots in a scripted
+  manner.
+* Contributors: Jivko Sinapov, Piyush Khandelwal, Shiqi Zhang
+
 0.3.1 (2015-03-31)
 ------------------
 * updated launch files to account for upcoming amcl.launch change.
